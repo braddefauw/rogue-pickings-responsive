@@ -174,10 +174,58 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 1em;
+}
+
+@media all and (min-width:768px) {
+    .bottom-section {
+		flex-flow: row wrap;
+		align-items: flex-start;
+	}
+
+	.section-one, .section-two, .section-three {
+		width: 33%;
+	}
+
+	header h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	header {
+		width: 100%;
+	}
+ 
+}
+ 
+@media all and (min-width:1200px) {
+    header {
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	header h1 {
+		border-bottom: none;
+		text-align: left;
+		width: 30%;
+		flex-flow: row;
+		padding-right: 5em;
+	}
+
+	header nav ul {
+		display: flex;
+		flex-flow: row;
+	}
+
+	header nav {
+		width: 40%;
+		padding-left: 3em
+	}
+ 
 }
