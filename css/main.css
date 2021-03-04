@@ -109,6 +109,7 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
+	padding: 10px 30px;
 }
 .main-title h2 {
 	text-align: left;
@@ -138,6 +139,7 @@ header nav ul li a{
 	border-right: 1px solid #eee;
 }
 
+.section-one h3,
 .section-two h3,
 .section-three h3 {
 	padding: 10px 30px;
@@ -148,7 +150,7 @@ header nav ul li a{
 	padding: 0;
 }
 .menu li {
-	padding: 10px 0;
+	padding: 10px 30px;
 	color:#77a466;
 }
 
